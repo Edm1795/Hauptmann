@@ -1,3 +1,21 @@
+
+.Title-page > p {
+  flex: 1 1 50%;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+/* Formatting of Main Text */
+.Paragraph {
+  display: flex;
+}
+
+.Paragraph > p {
+  flex: 1 1 50%;
+  margin: 5px;
+  border: 1px solid black;
+}
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
