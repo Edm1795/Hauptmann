@@ -1,3 +1,29 @@
+html, body {
+  margin: 0; /* moves navbar flush with top */
+}
+
+body > p {
+  margin: 0; /* moves navbar flush with top */
+  padding-top: 47px;
+}
+
+#Introduction, #Section-I{
+  padding-top:46px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+h1 span {
+  font-size: 1.5rem;
+}
+
+/* Formatting of Title Page  */
+.Title-page {
+  display: flex;
+}
 
 .Title-page > p {
   flex: 1 1 50%;
@@ -18,7 +44,9 @@
 
 /* Navbar container */
 .navbar {
-  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  /*overflow: hidden;*/
   background-color: #333;
   font-family: Arial;
 }
@@ -85,3 +113,4 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+ 
