@@ -30,8 +30,28 @@
 
 <div class="navbar">
   <a href="index.html">Hauptmann</a>
-  <a href="#news">News</a>
+
+  <!-- Overlay for "About" menu button -->
+  <div id="overlay" onclick="off()">
+  <div id="text">
+
+  Project Mandate<br><br>
+  To present Moritz Hauptmann's seminal treatise DIE NATUR DER
+  HARMONIK UND DER METRIK. zun THEORIE DER MUSIK. (1853) as a bilingual edition.
+  We aim to make the above treatise easily navigable with a simple interface allowing researchers to compare the German and English side
+  by side.<br><br>
+
+  Utmost care has been taken to present both the original German and the English translation accurately, following the original publications in
+  spelling and punctuation
+
+ </div>
+  </div>
+  <a
+   <button onclick="on()">About</button>
+  </a>
   <div class="dropdown">
+  <!-- Overlay code end -->
+
     <button class="dropbtn">Contents
       <i class="fa fa-caret-down"></i>
     </button>
@@ -43,6 +63,7 @@
     </div>
   </div>
 </div>
+
   
 <!-- <p class="title"> -->
 <!-- ============= Title to entire page, not placed in column =========== -->
@@ -2483,7 +2504,7 @@ seiner Bestimmungen bezeichnet mit :
 
 
 <!-- First run of Javascript, just testing -->
-<script async src="javascript/index.js"></script>
+<script src="javascript/index.js"></script>
 
 
 
