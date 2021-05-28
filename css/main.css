@@ -16,8 +16,11 @@ body > p {
   padding-top: 47px;
 }
 
-#Introduction, #Section-I, #Major-Triad, #Major-Key{
+/* Set buffer so that titles are not under the navbar; 
+    align titles to centre*/
+#Introduction, #Section-I, #Major-Triad, #Major-Key, #Sound{
   padding-top:46px;
+  text-align: center;
 }
 
 
@@ -31,8 +34,9 @@ h1 span {
 }
 
 /* Formatting of Title Page  */
-.Title-page {
+.Title-page, #Publisher-Info {
   display: flex;
+  text-align: center;
 }
 
 .Title-page > p {
