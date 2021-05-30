@@ -150,7 +150,7 @@ h1 span {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #2F39FF;
+  background-color: #545CFF;  /*Hover colour*/
 }
 
 /* Show the dropdown menu on hover */
