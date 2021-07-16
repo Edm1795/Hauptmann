@@ -15,7 +15,9 @@ body{
 
 }
 
-svg{display:block;} /* removes excess margin under svg graphs */
+svg{display:block; /* removes excess margin under svg graphs */
+  margin-left:auto; /* centers svg in column */
+   margin-right:auto;} /* centers svg in column */
 
 body > p {
   margin: 0; /* moves navbar flush with top */
